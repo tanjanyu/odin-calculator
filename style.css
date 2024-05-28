@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 850px;
+}
+
+.main-body {
+    flex: 0 0 auto;
+    height: 500px;
+    width: 400px;
+    background-color: #595351;
+    border-radius: 5px;
+}
+
+.screen {
+    background-color: #55ab83;
+    height: 100px;
+    width: 350px;
+    margin: 25px;
+}
