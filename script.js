@@ -1,3 +1,6 @@
+// Global variables
+let num1 = 1, num2 = 1, operator = "add", operatorStored = false;
+
 function add(a, b) {
     return a + b;
 }
@@ -22,11 +25,26 @@ function eventHandler(event) {
             // Function for the number
             break;
         
-        case (currentTargetID === ""):
+        case (currentTargetID === "clear"):
+            break;
+
+        case (currentTargetID === "equal"):
+            break;
+
+        default:
+
+
     }
 }
 
 function addNumber(id) {
     let screen = document.querySelector(".screen");
     screen.textContent = screen.textContent + id.charAt(1);
+}
+
+function addOperator(id) {
+    
+    switch(id) {
+        case "multply":
+    }
 }
